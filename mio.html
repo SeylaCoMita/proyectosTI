@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio PRO de Seyla</title>
+  <style>
+    /* Estilo general */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #fdfbfb, #ebedee);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      animation: fadeInDown 1.5s ease;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      color: #ff4d6d;
+      text-shadow: 2px 2px #ffe0e9;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #6c63ff;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 15px;
+      padding: 2rem;
+      max-width: 800px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      margin-top: 2rem;
+      animation: slideUp 1.5s ease;
+    }
+
+    .card p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+    }
+
+    .card em {
+      color: #0096c7;
+    }
+
+    .card strong {
+      color: #f72585;
+    }
+
+    .code-snippet {
+      background-color: #f0f0f0;
+      font-family: monospace;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    a {
+      color: #6c63ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Animaciones */
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes slideUp {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Botón */
+    .btn {
+      margin-top: 2rem;
+      background-color: #6c63ff;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #4834d4;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Proyecto HTML Pro</h1>
+    <h2>by @seyla.codes </h2>
+  </header>
+
+  <section class="card">
+    <p><em>El conocimiento</em> es poder, pero <strong>el diseño web</strong> es magia moderna. </p>
+    <p>Una página bien hecha <strong>habla por ti</strong>, incluso antes de que tú lo hagas.</p>
+    <p>¿Sabías que 4 elevado al cuadrado se escribe así?: <code>4<sup>2</sup></code></p>
+    <p>¿Y que el agua oxigenada tiene esta fórmula?: <code>H<sub>2</sub>O<sub>2</sub></code></p>
+
+    <div class="code-snippet">
+      <code>
+        &lt;p title="Seyla es pro"&gt;¡Hover sobre mí!&lt;/p&gt;
+      </code>
+    </div>
+
+    <button class="btn" onclick="alert('¡Estás aprendiendo HTML como una pro!')">
+      Haz clic aquí
+    </button>
+  </section>
+
+  <footer>
+    Hecho con amor y código por <a href="https://www.instagram.com/tuusuario" target="_blank">@seyla.codes</a>
+  </footer>
+
+</body>
+</html>

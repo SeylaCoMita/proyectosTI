@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apuntes de HTML</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f0f0f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    h1 {
+      color: #2c3e50;
+    }
+
+    h2, h3 {
+      color: #34495e;
+    }
+
+    ul {
+      margin-left: 20px;
+      list-style-type: square;
+    }
+
+    code {
+      background-color: #e8e8e8;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    .bloque, .linea {
+      background-color: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-left: 5px solid #3498db;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>APUNTES DE HTML</h1>
+
+  <h2>¿Qué es HTML?</h2>
+  <p>
+    HTML significa <strong>HyperText Markup Language</strong> (Lenguaje de Marcado de Hipertexto). Es el lenguaje estándar para crear páginas web y estructurar su contenido mediante etiquetas como <code>&lt;p&gt;</code>, <code>&lt;img&gt;</code>, <code>&lt;a&gt;</code>, entre otras.
+  </p>
+
+  <div class="bloque">
+    <h3>Elementos de Bloque</h3>
+    <p>Ocupen todo el ancho disponible y comienzan en una nueva línea:</p>
+    <ul>
+      <li><code>&lt;p&gt;</code>: párrafos</li>
+      <li><code>&lt;div&gt;</code>: divisiones o contenedores</li>
+      <li><code>&lt;h1&gt; - &lt;h6&gt;</code>: encabezados del más grande al más pequeño</li>
+      <li><code>&lt;ol&gt;</code>: lista ordenada</li>
+      <li><code>&lt;ul&gt;</code>: lista desordenada</li>
+      <li><code>&lt;form&gt;</code>: formulario de entrada de datos</li>
+      <li><code>&lt;header&gt;, &lt;nav&gt;, &lt;article&gt;, &lt;aside&gt;, &lt;footer&gt;</code>: elementos semánticos de HTML5</li>
+    </ul>
+  </div>
+
+  <div class="linea">
+    <h3>Elementos de Línea</h3>
+    <p>Solo ocupan el ancho necesario y no generan saltos de línea:</p>
+    <ul>
+      <li><code>&lt;small&gt;</code>: texto con menos énfasis</li>
+      <li><code>&lt;wbr&gt;</code>: permite salto de línea si es necesario</li>
+      <li><code>&lt;time datetime=""&gt;</code>: representa una fecha u hora</li>
+      <li><code>&lt;span&gt;</code>: para aplicar estilos en línea</li>
+      <li><code>&lt;a&gt;</code>: enlaces</li>
+      <li><code>&lt;img&gt;</code>: insertar imagen</li>
+      <li><code>&lt;strong&gt;</code> y <code>&lt;em&gt;</code>: enfatizan texto (negrita y cursiva)</li>
+      <li><code>&lt;b&gt;</code>, <code>&lt;i&gt;</code>, <code>&lt;u&gt;</code>: estilo visual (negrita, cursiva, subrayado)</li>
+      <li><code>&lt;br&gt;</code>: salto de línea</li>
+    </ul>
+    <p>Ejemplo: <code>&lt;span&gt;</code> es un <strong>elemento de línea</strong>.</p>
+  </div>
+
+</body>
+</html>

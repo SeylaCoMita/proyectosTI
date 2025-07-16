@@ -1,0 +1,103 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <h1>APUNTES</h1>
+    <h2>HTML significa HyperText Markup Language, que en español se traduce como Lenguaje de Marcado de Hipertexto. Es el lenguaje estándar para crear páginas web y estructurar su contenido, utilizando etiquetas para definir elementos como texto, imágenes, enlaces, etc. 
+
+    <meta charset="UTF-8">
+    codificación UTF-8, que sí reconoce tildes y caracteres especiales del español
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    es clave para que tu página web se vea bien en celulares y tablets
+
+    </h2>
+<!-- Establece el tipo de estandar del documento (HTML5) -->
+<!DOCTYPE html>
+
+<!-- Inicio del documento HTML, legunaje: es: spanish, en: englis -->
+<html lang="es">
+
+<!-- Datos que le pasamos al navegador con informacion de nuestra pagina web -->
+<head>
+   <meta charset="uft-8">
+    <title>Mi primera página web</title>
+</head>
+
+<!-- Representa todo el contenido de nuestra pagina web -->
+<body>
+    Body de nuestra página web en un servidor local
+</body>
+</html>
+
+ <!-- Elementos de Bloque y Linea-->
+    <!-- Bloque -->
+    <h3>
+        En HTML, los elementos de bloque son aquellos que ocupan todo el ancho disponible de su contenedor y comienzan en una nueva línea:
+            <p> (párrafos)
+            <div> (divisiones. Un contenedor genérico que se usa para agrupar otros elementos y aplicarles estilos)
+            <h1> a <h6> (encabezados. h1 el mas grande h6 el mas pequenio)
+            <ol> (listas. Define una lista ordenada (con números))
+            <ul> (listas. Define una lista desordenada (con viñetas))
+            <form> (Define un formulario para la entrada de datos)
+            <header>, <nav>, <article>, <aside>, <footer>: Elementos semánticos de HTML5 que representan diferentes secciones de una página web. 
+    </h3>
+
+    <!-- Linea -->
+     <h3>
+        En HTML, los elementos de linea solo ocupan el ancho necesario para su contenido y no comienzan en una nueva línea:
+            <small> (Menos enfasis que el texto normal)
+            <wbr> (Saltos de liea si hace falta)
+            <time datetime=""> (Se usa para representar un contenido de hora o fecha)
+            <span> (Se utiliza para aplicar estilo o contenido específico a una parte del texto o de otro elemento en línea.)
+            <a> (Define un hipervínculo o enlace.)
+            <img> (Inserta una imagen en la página web.)
+            <strong> y <em> (Se utilizan para enfatizar texto (negrita y cursiva, respectivamente))
+            <b>, <i>, <u> (tipo de letra: bold, italic, underline. "i" tambien se puede usar para poner iconos)
+            <br>: Inserta un salto de línea.
+            <sup> Superindice
+            <sub> Subindice
+            
+     </h3>
+  <span>elemento de linea</span>
+
+    <!-- Atributos --> 
+     <h3>Los atributos son valores que configuran los elementos y/o ajustan su comportamiento.
+        En terminos generales hay dos tipos de atributos:
+            Comunes: su sintaxis es> atributo = "valor"
+            Booleanos: su sintaxis es> atributo
+
+            "Class" (Este atributo se usa para dar estilos a travez de CSS)
+            "id" (Es un identificador unico que se utiliza para seleccionar el elemento desde JS y para hacer navegacion a travez de anclas)
+            "title" (Es un atributo que ayuda a la accesibilidad mostrando una descripcion del elemento al que pertenece. Aparece el mensaje en un tooltip)
+            "data-*" (Es un atributo que nos permite guardar algun valor en la etiqueta HTML.)
+            
+            <style>
+                .parrafo-1{
+                    color: red
+                }
+            </style>
+
+            <p>Clases=parrafo-1"></p>
+            <p>Identificador</p>
+            <p>Titulo con tooltip</p>
+            <p>Datos pasados en la etiqueta</p>
+
+     </h3>
+
+     <!-- Enlaces --> 
+      <h3>
+        tambien s   on conocidos como links, su objetivo es conectar una pagina web con otra, con un rescurso tanto interno como externo o con otro sitio web.
+
+        tienen el atributo obligatorio href, donde le especificamos la ruta del recurso o sitio que quqeremos obtener.
+
+        tambien tiene el atributo target, que configura cómo queremos visualizar el recurso o sitio que solicitamos.
+
+
+      </h3>
+ </body>
+ </html>
