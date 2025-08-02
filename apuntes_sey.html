@@ -6,6 +6,10 @@
     <title>Document</title>
  </head>
  <body>
+    
+    < !-- -- > Es para poner comentarios
+    ! + tab es para abrir un nuev codigo
+
     <h1>APUNTES</h1>
     <h2>HTML significa HyperText Markup Language, que en español se traduce como Lenguaje de Marcado de Hipertexto. Es el lenguaje estándar para crear páginas web y estructurar su contenido, utilizando etiquetas para definir elementos como texto, imágenes, enlaces, etc. 
 
@@ -33,6 +37,7 @@
     Body de nuestra página web en un servidor local
 </body>
 </html>
+
 
  <!-- Elementos de Bloque y Linea-->
     <!-- Bloque -->
@@ -96,6 +101,23 @@
         tienen el atributo obligatorio href, donde le especificamos la ruta del recurso o sitio que quqeremos obtener.
 
         tambien tiene el atributo target, que configura cómo queremos visualizar el recurso o sitio que solicitamos.
+
+        Rutas Absolutas:
+            Tienen un protocolo , http o https y son unicas en la red, se suelen utilizar para rutas externas.
+
+        Rutas Relativas:
+            Pueden ser relativas al punto donde nos encontramos o relativas a la raiz del proyecto. No usan protocolo.
+            Si el recurso se encuentra al mismo nivel (en la misma carpeta) pondremos unicamente el nombre del archivo.
+            Si necesitamos salir de la carpeta actual usaremos ../ y se pone uno por cada ninvel (carpeta) de la que quermos salir
+
+        Atributos de los enlaces
+            target: define donde se abrira el recurso solicitado. Por norma general siempre que uses rutas absulotas pondremos como valor "_blank". El valor por defecto es "_self" (es como no poner nada)
+
+            download: atributo booleano, sirve para descargar el recurso solicitado.
+            IMPORTANTE, el recurso solicitado debe estaf en tu mismo servidor.
+
+
+        
 
 
       </h3>
